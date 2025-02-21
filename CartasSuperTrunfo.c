@@ -28,19 +28,24 @@ int main() {
     printf("Carta 1:\n");
 
     printf("Estado: \n");
-    scanf("%c", estado1);
-
+    scanf("%s", &estado1);
+    
     printf("Código: \n");
-    scanf("%s", codigo1);
+    scanf("%s", &codigo1);
 
     printf("Cidade: \n");
-    scanf("%s", cidade1);
+    scanf("%s", &cidade1);
 
     printf("Área: \n");
-    scanf("%f", area1);
+    scanf("%f", &area1);
 
     printf("Pontos Turísticos: \n");
-    scanf("%d", pontos1);
+    scanf("%d", &pontos1);
+
+    printf("Código: \n");
+    scanf("%s", &cidade2);
+
+
 
 
 
