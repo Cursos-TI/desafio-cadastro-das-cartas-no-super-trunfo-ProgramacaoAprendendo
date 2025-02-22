@@ -2,13 +2,13 @@
 
 int main(){
 
-    char estado;
-    char codigo[20];
-    char nome[20];
-    int populacao;
-    float area;
-    float pib;
-    int turisticos;
+    char estado, estadodois;
+    char codigo[20], codigodois[20];
+    char nome[20], nomedois[20];
+    int populacao, populacaodois;
+    float area, areadois;
+    float pib, pibdois;
+    int turisticos, turisticosdois;
 
     printf("Estado cidade 1: \n");
     scanf("%c", &estado);
