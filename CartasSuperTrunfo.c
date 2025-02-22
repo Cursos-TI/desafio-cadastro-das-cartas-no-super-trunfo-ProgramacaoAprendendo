@@ -24,10 +24,21 @@ int main(){
     scanf("%f", &pib);
     printf("Número de pontos turísticos da cidade 1: \n");
     scanf("%d", &turisticos);
+    
     printf("Estado da cidade 2: \n");
     scanf("%c", &estadodois);
     printf("Código da cidade 2: \n");
     scanf("%s", &codigodois);
+    printf("Nome da cidade 2: \n");
+    scanf("%s", &nomedois);
+    printf("População da cidade 2: \n");
+    scanf("%d", &populacaodois);
+    printf("Área da cidade 2: \n");
+    scanf("%f", &areadois);
+    printf("PIB da cidade 2: \n");
+    scanf("%f", &pibdois);
+    printf("Número de pontos turísticos da cidade 2: \n");
+    scanf("%d", &turisticosdois);
     
 
 
