@@ -39,7 +39,25 @@ int main(){
     scanf("%f", &pibdois);
     printf("Número de pontos turísticos da cidade 2: \n");
     scanf("%d", &turisticosdois);
-    
 
+    printf("Cidade 1: \n");
+    printf("Estado: %c\n", estado);
+    printf("Código: %s\n", codigo);
+    printf("Nome da Cidade: %s\n", nome);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: %.2f bilhões de reais\n", pib);
+    printf("Número de pontos turísticos: %d\n", turisticos);
+
+    printf("Cidade 2: \n");
+    printf("Estado: %c\n", Estadodois);
+    printf("Código: %s\n", codigodois);
+    printf("Nome da Cidade: %s\n", nomedois);
+    printf("População: %d\n", populacaodois);
+    printf("Área: %.2f km²\n", areadois);
+    printf("PIB: %.2f bilhões de reais\n", pibdois);
+    printf("Número de pontos turísticos: %d\n", turisticosdois);
+
+    return 0;
 
 }
