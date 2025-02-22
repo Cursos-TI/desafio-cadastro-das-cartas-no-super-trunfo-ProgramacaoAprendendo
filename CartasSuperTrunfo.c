@@ -18,12 +18,14 @@ int main(){
     scanf("%s", &nome);
     printf("População da cidade 1: \n");
     scanf("%d", &populacao);
-    printf("Area da cidade 1: \n");
+    printf("Área da cidade 1: \n");
     scanf("%f", &area);
     printf("PIB da cidade 1: \n");
     scanf("%f", &pib);
     printf("Número de pontos turísticos da cidade 1: \n");
     scanf("%d", &turisticos);
+    printf("Estado da cidade 2: \n");
+    scanf("%c", &estadodois);
 
 
 }
