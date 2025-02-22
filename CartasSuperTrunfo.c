@@ -26,6 +26,9 @@ int main(){
     scanf("%d", &turisticos);
     printf("Estado da cidade 2: \n");
     scanf("%c", &estadodois);
+    printf("Código da cidade 2: \n");
+    scanf("%s", &codigodois);
+    
 
 
 }
