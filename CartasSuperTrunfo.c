@@ -2,7 +2,7 @@
 
 int main(){
 
-    char estado, estadodois;
+    char estado, Estadodois;
     char codigo[20], codigodois[20];
     char nome[20], nomedois[20];
     int populacao, populacaodois;
@@ -26,7 +26,7 @@ int main(){
     scanf("%d", &turisticos);
     
     printf("Estado da cidade 2: \n");
-    scanf("%c", &estadodois);
+    scanf(" %c", &Estadodois);
     printf("Código da cidade 2: \n");
     scanf("%s", &codigodois);
     printf("Nome da cidade 2: \n");
