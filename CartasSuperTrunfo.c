@@ -3,8 +3,8 @@
 int main(){
 
     char estado, Estadodois;
-    char codigo[20], codigodois[25];
-    char nome[20], nomedois[20];
+    char codigo[20], codigodois[30];
+    char nome[20], nomedois[30];
     int populacao, populacaodois;
     float area, areadois;
     float pib, pibdois;
