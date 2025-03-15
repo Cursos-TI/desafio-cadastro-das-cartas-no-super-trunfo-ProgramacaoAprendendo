@@ -13,6 +13,7 @@ int main(){
     float capita, capitadois;
     float superpoderum, superpoderdois;
     int resultado, resultado2, resultado3, resultado4, resultado5, resultado6, resultado7;
+    int escolhaJogador, escolhaComputador;
 
     printf("Estado cidade 1: \n");
     scanf("%c", &estado);
@@ -21,7 +22,7 @@ int main(){
     printf("Nome da cidade 1: \n");
     scanf("%s", &nome);
     printf("População da cidade 1: \n");
-    scanf("%d", &populacao);
+    scanf("%u", &populacao);
     printf("Área da cidade 1: \n");
     scanf("%f", &area);
     printf("PIB da cidade 1: \n");
@@ -100,6 +101,61 @@ int main(){
     printf("Comparação de Cartas Atributos (Atributo: População).\n");
     printf("Carta 1 - %s - %d\n", nome, populacao);
     printf("Carta 2 - %s - %d\n", nomedois, populacaodois);
+
+    printf("### Escolha um atributo para Comparar! ###\n");
+    printf("1 - Nome da Cidade\n");
+    printf("2 - População\n");
+    printf("3 - Área\n");
+    printf("4 - PIB\n");
+    printf("5 - Número de Pontos Turísticos\n");
+    printf("6 - Densidade Demográfica\n");
+    scanf("%d", &escolhaJogador);
+    
+    switch (escolhaJogador)
+    {
+    case 1:
+        printf("Jogador: Cidade - ");
+        break;
+    case 2:
+        printf("Jogador: População - ");
+        break;
+    case 3:
+        printf("Jogador: Área - ");
+        break;
+    case 4:
+        printf("Jogador: PIB - ");
+        break;
+    case 5:
+        printf("Jogador: Número de Pontos Turísticos - ");
+        break;
+    case 6:
+        printf("Jogador: Densidade Demográfica - ");
+        break;
+    default:
+        printf("Opção Inválida - ");
+        break;
+    }
+    switch (escolhaComputador)
+    {
+    case 1:
+        printf("Computador: Cidade\n");
+        break;
+    case 2:
+        printf("Computador: População\n");
+        break;
+    case 3:
+        printf("Computador: Área\n");
+        break;
+    case 4:
+        printf("Computador: PIB\n");
+        break;
+    case 5:
+        printf("Computador: Número de Pontos Turísticos\n");
+        break;
+    case 6:
+        printf("Computador: Densidade Demográfica\n");
+        break;
+       
     
     if (populacao > populacaodois){
         printf("Carta 1 venceu!\n");
