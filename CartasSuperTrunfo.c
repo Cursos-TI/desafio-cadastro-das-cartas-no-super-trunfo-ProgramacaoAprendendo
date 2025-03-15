@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
 
@@ -98,10 +99,6 @@ int main(){
     printf("PIB per capita: %d\n", resultado6);
     printf("Super Poder: %d\n", resultado7);
 
-    printf("Comparação de Cartas Atributos (Atributo: População).\n");
-    printf("Carta 1 - %s - %d\n", nome, populacao);
-    printf("Carta 2 - %s - %d\n", nomedois, populacaodois);
-
     printf("### Escolha um atributo para Comparar! ###\n");
     printf("1 - Nome da Cidade\n");
     printf("2 - População\n");
@@ -111,6 +108,27 @@ int main(){
     printf("6 - Densidade Demográfica\n");
     scanf("%d", &escolhaJogador);
 
-    return 0;
-
-}
+    switch (escolhaJogador)
+    {
+    case 1:
+        printf("Jogador: Nome da Cidade.\n");
+        break;
+    case 2:
+        printf("Jogador: População.\n");
+        break;
+    case 3:
+        printf("Jogador: Área.\n");
+        break;
+    case 4:
+        printf("Jogador: PIB.\n");
+        break;
+    case 5:
+        printf("Jogador: Número de Pontos Turísticos.\n");
+        break;
+    case 6:
+        printf("Jogador: Densidade Demográfica.\n");
+        break;
+    default:
+        printf("Opção Inválida.\n");
+        break;
+    }
