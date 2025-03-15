@@ -110,59 +110,6 @@ int main(){
     printf("5 - Número de Pontos Turísticos\n");
     printf("6 - Densidade Demográfica\n");
     scanf("%d", &escolhaJogador);
-    
-    switch (escolhaJogador)
-    {
-    case 1:
-        printf("Jogador: Cidade - ");
-        break;
-    case 2:
-        printf("Jogador: População - ");
-        break;
-    case 3:
-        printf("Jogador: Área - ");
-        break;
-    case 4:
-        printf("Jogador: PIB - ");
-        break;
-    case 5:
-        printf("Jogador: Número de Pontos Turísticos - ");
-        break;
-    case 6:
-        printf("Jogador: Densidade Demográfica - ");
-        break;
-    default:
-        printf("Opção Inválida - ");
-        break;
-    }
-    switch (escolhaComputador)
-    {
-    case 1:
-        printf("Computador: Cidade\n");
-        break;
-    case 2:
-        printf("Computador: População\n");
-        break;
-    case 3:
-        printf("Computador: Área\n");
-        break;
-    case 4:
-        printf("Computador: PIB\n");
-        break;
-    case 5:
-        printf("Computador: Número de Pontos Turísticos\n");
-        break;
-    case 6:
-        printf("Computador: Densidade Demográfica\n");
-        break;
-       
-    
-    if (populacao > populacaodois){
-        printf("Carta 1 venceu!\n");
-    }else {
-        printf("Carta 2 venceu!\n");
-    }
-
 
     return 0;
 
