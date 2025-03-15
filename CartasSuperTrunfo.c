@@ -108,27 +108,4 @@ int main(){
     printf("6 - Densidade Demográfica\n");
     scanf("%d", &escolhaJogador);
 
-    switch (escolhaJogador)
-    {
-    case 1:
-        printf("Jogador: Nome da Cidade.\n");
-        break;
-    case 2:
-        printf("Jogador: População.\n");
-        break;
-    case 3:
-        printf("Jogador: Área.\n");
-        break;
-    case 4:
-        printf("Jogador: PIB.\n");
-        break;
-    case 5:
-        printf("Jogador: Número de Pontos Turísticos.\n");
-        break;
-    case 6:
-        printf("Jogador: Densidade Demográfica.\n");
-        break;
-    default:
-        printf("Opção Inválida.\n");
-        break;
-    }
+    printf("To cansado.\n");
